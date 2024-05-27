@@ -1,14 +1,14 @@
 # Raytracer
 The Raytracer project is a collaborative effort aiming to create a ray tracing engine using modern programming techniques.  
 The project focuses on implementing various features such as different materials, lighting models, and geometries.  
-This project was carried out by jade.magnin@epitech.eu nathanael.moehn@epitech.eu fahad.raja-muhammad@epitech.eu and nicolas.ferreira-andre@epitech.eu.
+This project was carried out by jade.magnin@epitech.eu and nathanael.moehn@epitech.eu.
 
 ## Engine Features
 The ray tracing engine supports various features:
 
 Different geometries: The engine can render different geometric shapes : sphere, plane, cone and cylinder.  
 Materials: The engine supports different materials, each with its own light reflection characteristics like Lambertian, Dielectric or Metal.  
-Texture : The shapes supports different textures like chessboard, image or noise.  
+Texture : The shapes support different textures like chessboard, image or noise.  
 Lighting: The engine supports different lighting models, including diffuse lighting or directional.  
 Image rendering: The engine renders the scene into an image with a specified width and height. See image_width and image_height in Camera.
 
@@ -19,7 +19,7 @@ Image rendering: The engine renders the scene into an image with a specified wid
 • Directional light  
 • Ambient light  
 • Flat color  
-• Add primitives to scene  
+• Add primitives to the scene  
 • Set up lighting  
 • Set up camera  
 • No GUI, output to a PPM file  
@@ -40,12 +40,12 @@ Image rendering: The engine renders the scene into an image with a specified wid
 • Refraction  
 • Reflection  
 • Texturing from file  
-• Texturing from procedural generation of chessboard  
-• Texturing from procedural generation of Perlin noise  
+• Texturing from a procedural generation of a chessboard  
+• Texturing from a procedural generation of Perlin noise  
 • Import a scene in a scene  
 • Set up antialiasing through supersampling  
 • Set up antialiasing through adaptative supersampling  
-• Space partitionning  
+• Space partitioning  
 • Multithreading  
 • Clustering
 
