@@ -1,0 +1,26 @@
+digraph "Graphical Class Hierarchy"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="Raytracer::Hittable",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classRaytracer_1_1Hittable.html",tooltip=" "];
+  Node0 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="Raytracer::BVHNode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classRaytracer_1_1BVHNode.html",tooltip=" "];
+  Node0 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Raytracer::Cone",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classRaytracer_1_1Cone.html",tooltip="Class representing a cone in 3D space."];
+  Node0 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Raytracer::Cylinder",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classRaytracer_1_1Cylinder.html",tooltip="Class representing a cylinder in 3D space."];
+  Node0 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Raytracer::Density",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classRaytracer_1_1Density.html",tooltip="A class that represents a density in the raytracer."];
+  Node0 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Raytracer::HittableList",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classRaytracer_1_1HittableList.html",tooltip="Class representing a list of hittable objects."];
+  Node0 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="Raytracer::Plane",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classRaytracer_1_1Plane.html",tooltip="Class representing a plane in 3D space."];
+  Node0 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="Raytracer::Rotation",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classRaytracer_1_1Rotation.html",tooltip="Class representing a rotation in 3D space."];
+  Node0 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="Raytracer::Sphere",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classRaytracer_1_1Sphere.html",tooltip="Class representing a sphere in 3D space."];
+  Node0 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="Raytracer::Translation",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classRaytracer_1_1Translation.html",tooltip="Class representing a translation in 3D space."];
+}

@@ -1,0 +1,24 @@
+digraph "Graphical Class Hierarchy"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2 [label="std::exception",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node2 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node0 [label="ImgManager::ImgManagerException",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classImgManager_1_1ImgManagerException.html",tooltip=" "];
+  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="InvalidParameter",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classInvalidParameter.html",tooltip=" "];
+  Node2 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="MaterialBuilder::Unknown\lMaterialType",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classMaterialBuilder_1_1UnknownMaterialType.html",tooltip=" "];
+  Node2 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="MissingRequiredAttribute",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classMissingRequiredAttribute.html",tooltip=" "];
+  Node2 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ParseError",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classParseError.html",tooltip=" "];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ReadError",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classReadError.html",tooltip=" "];
+  Node2 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="TextureBuilder::UnknownTextureType",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classTextureBuilder_1_1UnknownTextureType.html",tooltip=" "];
+  Node2 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="UnknownShapeType",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classUnknownShapeType.html",tooltip="Exception thrown when an unknown shape type is encountered."];
+}
